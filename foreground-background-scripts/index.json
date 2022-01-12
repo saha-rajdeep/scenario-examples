@@ -1,0 +1,13 @@
+{
+  "title": "Foreground Background Scripts",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu20.04"
+  }
+}
