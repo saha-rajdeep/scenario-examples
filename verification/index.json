@@ -1,5 +1,6 @@
 {
   "title": "Verification",
+  "description": "Verify user input",
   "details": {
     "steps": [
       {

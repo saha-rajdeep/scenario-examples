@@ -1,5 +1,6 @@
 {
   "title": "Ubuntu Custom Content",
+  "description": "Write custom markdown for all phases",
   "details": {
     "intro": {
       "text": "intro.md"
