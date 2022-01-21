@@ -1,6 +1,6 @@
 {
   "title": "Linux Files Intro",
-  "description": "Let's learn some basic command to work with files on a Linux system",
+  "description": "Let's learn some basic commands to work with files on a Linux system",
   "details": {
     "intro": {
       "text": "intro.md",
