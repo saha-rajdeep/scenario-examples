@@ -1,0 +1,27 @@
+{
+  "title": "Kubernetes 2node multi-step verification",
+  "description": "Uses a two node Kubernetes cluster and performs user input verification in all steps",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Create a deployment",
+        "text": "createdeployment/text.md",
+        "verify": "createdeployment/verify.sh"
+      },
+      {
+        "title": "Delete a deployment",
+        "text": "deletedeployment/text.md",
+        "verify": "deletedeployment/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes-ubuntu20.04"
+  }
+}
