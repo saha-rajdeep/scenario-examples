@@ -1,6 +1,6 @@
 {
-  "title": "Kubernetes Deployment Challenge",
-  "description": "Tests Deployment command with verification",
+  "title": "Kubernetes Deployment Service Challenge",
+  "description": "Tests Deployment and Service command with verification and execute hints",
   "details": {
     "intro": {
       "text": "intro.md"
@@ -10,6 +10,20 @@
         "title": "Create a deployment",
         "text": "createdeployment/text.md",
         "verify": "createdeployment/verify.sh"
+      },
+      {
+        "title": "Create a service",
+        "text": "createsvc/text.md"
+      },
+      {
+        "title": "Create a service",
+        "text": "createsvc/hinttext.md",
+        "verify": "createsvc/verify.sh"
+      },
+      {
+        "title": "Delete a service",
+        "text": "deletesvc/text.md",
+        "verify": "deletesvc/verify.sh"
       },
       {
         "title": "Delete a deployment",
