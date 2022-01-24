@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kubectl get svc/my-service
+kubectl get service my-service
